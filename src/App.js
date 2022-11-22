@@ -2,8 +2,14 @@ import React from 'react';
 import './App.css';
 import ClassCounter from './components/ClassCounter'
 import ComponentC from './components/ComponentC';
+import CounterMemo from './components/CounterMemo';
+import CounterReduce from './components/CounterReduce';
+import CounterReduceThree from './components/CounterReduceThree';
+import CounterReduceTwo from './components/CounterReduceTwo';
 import DataFetching from './components/DataFetching';
 import DataFetchingId from './components/DataFetchingId';
+import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 import HookCounter from './components/HookCounter';
 import HookCounterFive from './components/HookCounterFive';
 import HookCounterFour from './components/HookCounterFour';
@@ -32,11 +38,22 @@ function App() {
      {/* <DataFetching />  */}
        {/* <DataFetchingId /> */}
         
-      <UserContext.Provider value={'Priyank'}>
+      {/* <UserContext.Provider value={'Priyank'}>
       <ChannelContext.Provider value={'Gondaliya'}>
       <ComponentC />
       </ ChannelContext.Provider>
-      </ UserContext.Provider>
+      </ UserContext.Provider> */}
+        {/* < CounterReduce/>  */}
+        {/* < CounterReduceTwo/>  */}
+        {/* < CounterReduceThree/>  */}
+     {/* <DataFetchingOne />  */}
+     {/* <DataFetchingTwo />  */}
+     <CounterMemo /> 
+
+
+        
+
+
 
     </div>
   );
