@@ -30,7 +30,7 @@ function App() {
        {/* <MouseContainer />  */}
       {/* <IntervalHookCounter />  */}
      {/* <DataFetching />  */}
-       <DataFetchingId />
+       {/* <DataFetchingId /> */}
         
       <UserContext.Provider value={'Priyank'}>
       <ChannelContext.Provider value={'Gondaliya'}>
