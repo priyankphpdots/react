@@ -10,12 +10,14 @@ import DataFetching from './components/DataFetching';
 import DataFetchingId from './components/DataFetchingId';
 import DataFetchingOne from './components/DataFetchingOne';
 import DataFetchingTwo from './components/DataFetchingTwo';
+import FocusInput from './components/FocusInput';
 import HookCounter from './components/HookCounter';
 import HookCounterFive from './components/HookCounterFive';
 import HookCounterFour from './components/HookCounterFour';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterTwo from './components/HookCounterTwo';
 import HookMouse from './components/HookMouse';
+import HookTimer from './components/HookTimer';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import MouseContainer from './components/MouseContainer';
 
@@ -48,7 +50,11 @@ function App() {
         {/* < CounterReduceThree/>  */}
      {/* <DataFetchingOne />  */}
      {/* <DataFetchingTwo />  */}
-     <CounterMemo /> 
+     {/* <CounterMemo />  */}
+     {/* <FocusInput /> */}
+     <HookTimer /> 
+
+
 
 
         
