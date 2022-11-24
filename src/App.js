@@ -6,6 +6,8 @@ import CounterMemo from './components/CounterMemo';
 import CounterReduce from './components/CounterReduce';
 import CounterReduceThree from './components/CounterReduceThree';
 import CounterReduceTwo from './components/CounterReduceTwo';
+import CounterTest1 from './components/CounterTest1';
+import CounterTest2 from './components/CounterTest2';
 import DataFetching from './components/DataFetching';
 import DataFetchingId from './components/DataFetchingId';
 import DataFetchingOne from './components/DataFetchingOne';
@@ -52,8 +54,11 @@ function App() {
      {/* <DataFetchingTwo />  */}
      {/* <CounterMemo />  */}
      {/* <FocusInput /> */}
-     <HookTimer /> 
+     {/* <HookTimer />  */}
+       <CounterTest1 /> 
+       <CounterTest2 /> 
 
+     
 
 
 
